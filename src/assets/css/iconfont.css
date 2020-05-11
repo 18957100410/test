@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587453453116'); /* IE9 */
+  src: url('iconfont.eot?t=1587453453116#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO4AAsAAAAACFQAAANrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEOIQBATYCJAMMCwgABCAFhG0HOhtLBxHVm6/IfiTYbqMa0a3s5UKmxEagGBu8CeJR53vPUmxFjvMLBDhVKQAExo7lEXhkGJFHb85V9WRUhBrJnd97tMMUKL0sTwHwP8dMF00DzG9bO2YW7Y1HswLZgKKvwovsDuTe2YHwDWM3ETTElyGApQqNkF59Bo3CoAHHBJBF8+dOx2SM6IZKwSD4FTdqZD8JjLfDu41iH/9++UwnBjwSCnB22Jzes+j2rvy7AcrFbhJFIJrODhi3gQIaARpkSqVzHCpKNkJhPaVuLvTRCN5UkTjmQl/tb/QfzwPxAcqUjK2X8uBdecyEwLsBRjwZrQ77QBngKvBNwpaaTmO0Sq1RrmI6+ZeL00HRuihIrU8lonlRIjXJqnBUKHasFY5djh2ft97uPFpGCKlsy61jj4XRrtKjjxy2trm0EXd4TCiZY2HY4qjEM8aOCncdKdXMWnraIEWZ2qXRriN4rr1DLK1+88qdTzPPdj1xj8fsfOye7HqWebqo8CZju5R35av+nvtu8Ls2M+e4FW7OuCFdh5wcezu6ff539mX2/O7bGyLyrOwg8vLbex6wIjshO3v5hb0Xjq90E9zxOxfeSQ+57S44WjbrdCnY4WfbJAt1h7QmNfVGxR1SpAawS+UKpvWQuoVk22xw4mz1E5ohaJb1te7/5j3a1tqcqjukqdnhj7449Fnfi5tCWfXfHA8w2w3BDlP8ex/597yu+FtwpLjZHgzs1WnUqHWIrWNcdes2aczGcfUapgEQX1OwvTvEt9QV1enP/wwPGv6vMhZ1+mtCDcDLW1cjHoivabqbMe/FJfCfRR2HtC8BJqVdIRaGGcU20m/RgPU9xABvCd4OV5fuXA6CoXQCHgGVQWGohdTYRpAgpBX4GLqCpSF9bw8pyQoUopNAA7ZIIBTjDHikuQqKYtxBauwbSFCGr+BTTBRYxkjJB4bUEdBdejLOghssf3ArZY0schGVNzTvOHNawikv5N1FoK2afOaKGXmKC/vHdCIaNFOCQXodxkhQmDyuUlmR0te1rvqkaqWkLvRknAU3WP7gVsqaTpZL4etvaN5x5oaBnuALeXerQ1s1HZBXZe40cCub94/pRLR6SDMlGGQ7RpgkKNW7PK5S2QHx0tfKKN1VWS2vTu93AbCAeiWeKNEEZ7a9zPl/GIZUIioFAA==') format('woff2'),
+  url('iconfont.woff?t=1587453453116') format('woff'),
+  url('iconfont.ttf?t=1587453453116') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587453453116#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-company:before {
+  content: "\e619";
+}
+
+.icon-People:before {
+  content: "\e64a";
+}
+

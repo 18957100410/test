@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1047363",
+      "name": "company",
+      "font_class": "company",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "7206246",
+      "name": "People",
+      "font_class": "People",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.owner-div-container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  padding: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.owner-div-container-top {
+  width: 100%;
+  height: 4vh;
+  min-height: 40px;
+  display: flex;
+
+  .owner-button-search {
+    height: 100%;
+    width: 80px;
+    border: 0;
+
+    border-radius: 3px;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    outline: 0;
+    margin: 0;
+  }
+
+  .owner-button-add {
+    height: 100%;
+    width: 80px;
+    border: 0;
+
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(103, 194, 58);
+    border-color: rgb(103, 194, 58);
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    outline: 0;
+    margin: 0;
+  }
+
+  .top {
+    display: flex;
+    //flex: 3;
+    height: 100%;
+    min-height: 40px;
+
+    //面包屑
+    .el-breadcrumb {
+      display: flex;
+
+      line-height: 0 !important;
+
+      span {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: justify;
+      }
+    }
+  }
+
+  .bottom {
+    //flex: 1;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+
+    //文本框容器
+    div:nth-child(1) {
+      display: flex;
+      flex-direction: row;
+
+      .el-input {
+        height: 100% !important;
+        width: 280px;
+        font-size: 14px;
+        display: flex;
+      }
+
+      .el-input__inner {
+        height: 100% !important;
+
+        //padding: 0 !important;
+        line-height: 0 !important;
+        width: 100%;
+        //padding: 0 !important;
+      }
+
+      //覆盖select
+      /deep/.el-input-group__prepend {
+        padding: 0 !important;
+        width: 120px !important;
+
+        /deep/.el-select {
+          width: 120px !important;
+          margin: 0 auto !important;
+          padding: 0 !important;
+          height: 100% !important;
+          //width: 80%;
+        }
+      }
+    }
+  }
+}
+
+.owner-div-container-middle {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+}
+
+.owner-div-container-bottom {
+  height: 6vh;
+  display: flex;
+}
+
+/*改变el 表格样式*/
+.el-table--border td,
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+  border-right: 1px solid rgb(169, 169, 169);
+}
+
+.el-table td,
+.el-table th.is-leaf {
+  border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+.el-table {
+  border: 1px solid rgb(169, 169, 169);
+}
+
+tr td:hover {
+  background-color: rgb(204, 204, 204) !important;
+}
+
+th:hover {
+  background-color: rgb(153, 211, 255) !important;
+}
+
+
+
+//分页上的 跳转 使用小手图标
+.el-pagination__jump {
+  cursor: pointer;
+}
+
+//diolog 表单元素覆盖
+.owner-dialog {
+  .el-dialog__body {
+    padding: 0 20px !important;
+  }
+
+  .el-input__inner {
+    width: 100% !important;
+  }
+
+  .el-date-editor {
+    width: 100% !important;
+  }
+
+  .el-button-last {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 6px;
+  }
+
+  .el-select {
+    width: 100% !important;
+  }
+}
